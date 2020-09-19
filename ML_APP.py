@@ -15,7 +15,7 @@ def main():
     st.sidebar.title("ML Binary Classification Web App")
     st.markdown("This application determines whether a mushroom 🍄 is "
                 "poisonous or not using Machine Learning. This [data set](https://archive.ics.uci.edu/ml/datasets/Mushroom) "
-                "was taken from UC Irvine's ML website. According to the website the data "
+                "was taken from UC Irvine's ML website and made avaliable through Kaggle. According to the website the data "
                 "includes descriptions of hypothetical samples corresponding to 23 species of mushrooms that belong "
                  "to the Agaricus and Lepiota Family. "
                 "Each species is identified as definitely edible, definitely poisonous, "
@@ -130,7 +130,8 @@ def main():
         st.subheader("Mushroom Data Set (Classification)")
         st.write(df)
         st.markdown(
-            "This [data set](https://archive.ics.uci.edu/ml/datasets/Mushroom) was taken from the UC Irvine's ML page. "
+            "This [data set](https://archive.ics.uci.edu/ml/datasets/Mushroom) was taken from the UC Irvine's ML page"
+            "and downloaded from Kaggle. "
             )
 
 
